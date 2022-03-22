@@ -1,0 +1,37 @@
+BCSE III-Compiler Design Lab
+
+Project - 2
+
+Consider a simple C-like language with
+
+Data Types: integer, real and character
+
+Declaration statements: identifiers are declared in declaration statements as basic data types and may also be assigned constant values (integer or floating)
+
+Condition constructs: if, then, else. Relational operators used in the if statement are < (less than), > (greater than), == (equal) and != (not equal).
+
+Example: if(a<10) then
+
+a=a*a;
+
+else a=a/2;
+
+Nested statements are supported. There may be if statement without else statement.
+
+Assignments to the variables are performed using the input/output constructs:
+cin >> x   - Read into variable x
+
+cout << x  - Write variable x to output
+
+Arithmetic operators (+, - *, /, %) and assignment operator "=" are supported
+
+Only function is main(), there is no other function.
+The main() function does not contain arguments and no return statements.
+
+Part I - Construct a CFG for this language.
+
+Part II - Write a lexical analyser to scan the stream of characters from a program written in the above language and generate stream of tokens.
+
+Part III - Maintain a symbol table with appropriate data structures.
+
+Part IV - Write a bottom-up parser for this language (modules include Item-set construction, computation of FOLLOW, parsing table construction and parsing).
