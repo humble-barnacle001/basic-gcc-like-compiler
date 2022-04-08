@@ -1,0 +1,42 @@
+program -> void main ( ) compound_stmt
+
+compound_stmt -> { } | { stmt_list } | { declaration_list stmt_list }
+
+stmt_list -> stmt | stmt_list stmt
+
+stmt --> compound_stmt | expression_stmt | if_stmt
+
+expression_stmt --> ; | expression ;
+
+if_stmt -> if ( expression ) then stmt | if ( expression ) then stmt else stmt
+
+expression -> assignment_expr | expression , assignment_expr
+
+assignment_expr -> logical_or_expr | unary_expr assign_op assignment_expr
+
+assign_op -> =
+
+unary_expr --> primary_expr | unary_expr
+
+primary_expr -> ID | NUM | ( expression )
+
+logical_or_expr --> logical_and_expr | logical_or_expr OR_OP logical_and_expr
+
+logical_and_expr --> equality_expr | logical_and_expr AND_OP equality_expr
+
+equality_expr --> relational_expr | equality_expr EQ_OP relational_expr | equality_expr NE_OP relational_expr
+
+relational_expr --> add_expr | relational_expr < add_expr | relational_expr > add_expr
+
+add_expr --> mult_expr | add_expr + mult_expr | add_expr - mult_expr
+
+mult_expr --> unary_expr| mult_expr * unary_expr | mult_expr / unary_expr | mult_expr % unary_expr
+
+declarationlist --> declaration | declarationlist declaration
+
+declaration --> type idlist ;
+
+idlist --> idlist , ID | ID
+
+type --> integer | real | character
+
