@@ -20,8 +20,10 @@ then
 rm ./bin/lexer.bin
 fi
 
-lex -o ./bin/lexer.yy.c ./lexer/lexer.l
-cc ./bin/lexer.yy.c -o ./bin/lexer.bin
+
+flex -o ./bin/lexer.yy.c ./lexer/lexer.l
+gcc ./bin/lexer.yy.c -o ./bin/lexer.bin
 ./bin/lexer.bin $1 ./out/lex/$2
+
 [ $? -eq 0 ] && echo "Lexing Success"
 

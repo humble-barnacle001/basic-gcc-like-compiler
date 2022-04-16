@@ -20,7 +20,7 @@ then
 rm ./bin/symboltable.bin
 fi
 
-lex -o ./bin/symboltable.yy.c "./symbol table/symboltable.l"
-cc ./bin/symboltable.yy.c -o ./bin/symboltable.bin
+flex -o ./bin/symboltable.yy.c "./symbol table/symboltable.l"
+gcc ./bin/symboltable.yy.c -o ./bin/symboltable.bin
 ./bin/symboltable.bin $1 "./out/symbol table/$2"
 
