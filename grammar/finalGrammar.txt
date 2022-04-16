@@ -1,0 +1,12 @@
+G->P
+P->mfgbS
+S->c|AS|DS|CS|LS|IS
+D->dV
+V->vzV|v;
+T->v|n
+A->v=X
+X->TaT;|T;|A
+C->ifRgtbSebS
+L->wfRgbS
+I->pT;|sT;
+R->TrT

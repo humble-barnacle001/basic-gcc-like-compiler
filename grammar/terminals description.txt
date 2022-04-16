@@ -1,0 +1,21 @@
+m  - main
+b  - opening brace curly
+c  - closing brace curly
+v  - variable name (max size is 32 by lexer)
+n  - constant
+a  - arithmetic operator
+r  - relational operator
+d  - data type (declaration must be in the beginning of the block)
+i  - if
+t  - then
+e  - else
+w  - while
+f  - (
+g  - )
+p  - cout<<
+s  - cin>>
+z  - comma(,)
+
+other terminals occurring with the above
+;  - semicolon 
+=  - assignment operator
