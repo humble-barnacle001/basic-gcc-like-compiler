@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
+#include "../util/filereadwrite.h"
+
 using namespace std;
+
+FileReadWrite frw;
 
 // Data structures
 map<char, vector<string>> productionMap;
@@ -61,6 +65,7 @@ void prepareFirstSet()
             firstSetMap[q.first].insert(g);
     }
 }
+
 void prepareFollowSet()
 {
     // Now we need to compute the follow set for the symbols of the given grammar
@@ -140,10 +145,11 @@ void prepareFollowSet()
         }
     }
 }
+
 // PROCESS THE PRODUCTION RULES AND ADD EACH OF THEM IN PROPER DATA STRUCTURES
 void processGrammar()
 {
-    ifstream fin("testGrammer.txt");
+    ifstream fin("grammar/finalGrammar.txt");
     string num;
     bool flag = 0;
 
@@ -169,6 +175,7 @@ void processGrammar()
         productionMap[s].push_back(temp);
     }
 }
+
 void insertIntoReduceRule(string str, int current)
 {
     cout << "Called insertIntoReduceRule for:";
@@ -198,6 +205,7 @@ void insertIntoReduceRule(string str, int current)
             ActionTable[{current, c}] = "R" + to_string(num);
     }
 }
+
 void insertIntoActionTable(int current, char ch, int counter)
 {
     // cout << "Inserted into action table ,Current:" << current << "->" << ch << "->" << counter << "\n";
@@ -206,6 +214,7 @@ void insertIntoActionTable(int current, char ch, int counter)
     else
         ActionTable[{current, ch}] = "S" + to_string(counter);
 }
+
 void printClosure(set<string> &RuleList)
 {
     cout << "Current closure Item set:\n";
@@ -214,6 +223,7 @@ void printClosure(set<string> &RuleList)
 
     cout << "\n";
 }
+
 void prepareClosure(set<string> &RuleList)
 {
     int iteration = 5;
@@ -274,18 +284,16 @@ void prepareClosure(set<string> &RuleList)
     // for(string s:RuleList)cout<<s<<"\n";
     // Now the rulelist contains the closure of the item set
 }
-int main()
+
+int main(int argc, char *argv[])
 {
     set<string> RuleList;
     RuleList.insert("G->.P"); // Augmenting G to the start symbol of the grammar
     processGrammar();
     prepareFirstSet();
     prepareFollowSet(); // read the grammar and store the production rules
-
-    // productionMap['P'].push_back("AB");
-    // productionMap['A'].push_back("a");
-    // productionMap['B'].push_back("b");
     prepareClosure(RuleList);
+
     int ruleCountInitially = 0;
     for (auto itr : productionMap)
     {
@@ -405,7 +413,7 @@ int main()
     cout << "\n--------The Item Sets generated in the grammar are :-----------\n";
     for (auto itr : ItemNumberToRuleMap)
     {
-        cout << "I" << itr.first << "\n";
+        cout << "I" << itr.first << ":\n";
         for (string s : itr.second)
         {
             cout << s << "\n";
@@ -430,10 +438,13 @@ int main()
     }
 
     // Final code segment for the parsing of the input string which is generated from the given grammar
+
     //  FINAL CODE WHICH WILL DO THE PARSING OF THE INPUT TOKEN
-    cout << "\nInsert the input string which needs to be parsed:";
+    ifstream tokenListFile;
+    frw.prepareRead(tokenListFile, argv[1]);
     string input;
-    cin >> input;
+    getline(tokenListFile, input);
+    tokenListFile.close();
     input += "$";
     stack<string> stack; // create a stack of string for storing the value at any time
     stack.push("0");
@@ -461,7 +472,8 @@ int main()
                 string rem = action.substr(1);
                 int state = stoi(rem);
                 cout << "Shift and move to :" << state << "\n";
-                stack.push(input[currentInputIndex++] + ""); // increase the current input index only in shift operation
+                // increase the current input index only in shift operation
+                stack.push(input[currentInputIndex++] + "");
                 stack.push(rem);
             }
             else
@@ -483,25 +495,6 @@ int main()
                     string p = RuleProductionNumberingMapForReduction[reduceRuleNumber];
                     cout << "Reduce: " << p << "\n";
                     int len = 2 * (p.size() - 3);
-                    // if the reduction rule is epsilon then perform this
-                    // if (p.second == "#")
-                    // {
-                    //     string currentTop = stack.top();
-
-                    //     int state = stoi(currentTop); // make it an integer to perform correct operation
-                    //     stack.push(p.first + "");     // push the character and check goto table for this entry
-                    //     if (GotoTable.find({state, p.first}) == GotoTable.end())
-                    //     {
-                    //         cout << "No state found for GOTO\n";
-                    //         exit(0);
-                    //     }
-                    //     else
-                    //     {
-                    //         stack.push(GotoTable[{state, p.first}]);
-                    //     }
-                    //     continue;
-                    // }
-
                     while (len--)
                     {
                         // pop characters till 2*|beta|
