@@ -1,0 +1,422 @@
+
+I0: 
+P'->.P
+P->.mfgbS
+
+I1: 
+P'->P.
+
+I2: 
+P->m.fgbS
+
+I3: 
+P->mf.gbS
+
+I4: 
+P->mfg.bS
+
+I5: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+P->mfgb.S
+S->.AS|.CS|.DS|.IS|.LS|.c
+
+I6: 
+A->v.=X
+T->v.
+
+I7: 
+A->.v=X|v=.X
+T->.n|.v
+X->.A|.T;|.TaT;
+
+I8: 
+A->v=X.
+
+I9: 
+T->n.
+
+I10: 
+X->A.
+
+I11: 
+X->T.;|T.aT;
+
+I12: 
+X->T;.
+
+I13: 
+T->.n|.v
+X->Ta.T;
+
+I14: 
+T->v.
+
+I15: 
+X->TaT.;
+
+I16: 
+X->TaT;.
+
+I17: 
+C->i.fRgtbSebS
+
+I18: 
+C->if.RgtbSebS
+R->.TrT
+T->.n|.v
+
+I19: 
+C->ifR.gtbSebS
+
+I20: 
+C->ifRg.tbSebS
+
+I21: 
+C->ifRgt.bSebS
+
+I22: 
+A->.v=X
+C->.ifRgtbSebS|ifRgtb.SebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c
+
+I23: 
+A->v.=X
+
+I24: 
+C->ifRgtbS.ebS
+
+I25: 
+C->ifRgtbSe.bS
+
+I26: 
+A->.v=X
+C->.ifRgtbSebS|ifRgtbSeb.S
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c
+
+I27: 
+C->ifRgtbSebS.
+
+I28: 
+D->d.V
+V->.v;|.vzV
+
+I29: 
+D->dV.
+
+I30: 
+V->v.;|v.zV
+
+I31: 
+V->v;.
+
+I32: 
+V->.v;|.vzV|vz.V
+
+I33: 
+V->v.;
+
+I34: 
+V->vzV.
+
+I35: 
+I->p.T;
+T->.n|.v
+
+I36: 
+I->pT.;
+
+I37: 
+I->pT;.
+
+I38: 
+I->s.T;
+T->.n|.v
+
+I39: 
+I->sT.;
+
+I40: 
+I->sT;.
+
+I41: 
+L->w.fRgbS
+
+I42: 
+L->wf.RgbS
+R->.TrT
+T->.n|.v
+
+I43: 
+L->wfR.gbS
+
+I44: 
+L->wfRg.bS
+
+I45: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS|wfRgb.S
+S->.AS|.CS|.DS|.IS|.LS|.c
+
+I46: 
+L->wfRgbS.
+
+I47: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c|A.S
+
+I48: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c|C.S
+
+I49: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c|D.S
+
+I50: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c|I.S
+
+I51: 
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;|.sT;
+L->.wfRgbS
+S->.AS|.CS|.DS|.IS|.LS|.c|L.S
+
+I52: 
+S->c.
+
+I53: 
+S->LS.
+
+I54: 
+S->IS.
+
+I55: 
+S->DS.
+
+I56: 
+S->CS.
+
+I57: 
+S->AS.
+
+I58: 
+R->T.rT
+
+I59: 
+R->Tr.T
+T->.n|.v
+
+I60: 
+R->TrT.
+
+I61: 
+P->mfgbS.
+
+Edges: 
+I0 -> P -> I1
+I0 -> m -> I2
+I2 -> f -> I3
+I3 -> g -> I4
+I4 -> b -> I5
+I5 -> v -> I6
+I5 -> i -> I17
+I5 -> d -> I28
+I5 -> p -> I35
+I5 -> s -> I38
+I5 -> w -> I41
+I5 -> S -> I61
+I5 -> A -> I47
+I5 -> C -> I48
+I5 -> D -> I49
+I5 -> I -> I50
+I5 -> L -> I51
+I5 -> c -> I52
+I6 -> = -> I7
+I7 -> v -> I6
+I7 -> X -> I8
+I7 -> n -> I9
+I7 -> A -> I10
+I7 -> T -> I11
+I9 -> = -> I7
+I11 -> ; -> I12
+I12 -> ; -> I12
+I12 -> a -> I13
+I13 -> n -> I9
+I13 -> v -> I14
+I13 -> T -> I15
+I15 -> ; -> I16
+I17 -> f -> I18
+I18 -> R -> I19
+I18 -> T -> I58
+I18 -> n -> I9
+I18 -> v -> I14
+I19 -> g -> I20
+I20 -> t -> I21
+I21 -> b -> I22
+I22 -> v -> I23
+I22 -> i -> I17
+I22 -> S -> I24
+I22 -> d -> I28
+I22 -> p -> I35
+I22 -> s -> I38
+I22 -> w -> I41
+I22 -> A -> I47
+I22 -> C -> I48
+I22 -> D -> I49
+I22 -> I -> I50
+I22 -> L -> I51
+I22 -> c -> I52
+I23 -> = -> I7
+I24 -> e -> I25
+I25 -> b -> I26
+I26 -> v -> I23
+I26 -> i -> I17
+I26 -> S -> I27
+I26 -> d -> I28
+I26 -> p -> I35
+I26 -> s -> I38
+I26 -> w -> I41
+I26 -> A -> I47
+I26 -> C -> I48
+I26 -> D -> I49
+I26 -> I -> I50
+I26 -> L -> I51
+I26 -> c -> I52
+I28 -> V -> I29
+I28 -> v -> I30
+I30 -> ; -> I31
+I31 -> ; -> I31
+I31 -> z -> I32
+I32 -> v -> I33
+I32 -> v -> I30
+I32 -> V -> I34
+I33 -> ; -> I31
+I35 -> T -> I36
+I35 -> n -> I9
+I35 -> v -> I14
+I36 -> ; -> I37
+I38 -> T -> I39
+I38 -> n -> I9
+I38 -> v -> I14
+I39 -> ; -> I40
+I41 -> f -> I42
+I42 -> R -> I43
+I42 -> T -> I58
+I42 -> n -> I9
+I42 -> v -> I14
+I43 -> g -> I44
+I44 -> b -> I45
+I45 -> v -> I23
+I45 -> i -> I17
+I45 -> d -> I28
+I45 -> p -> I35
+I45 -> s -> I38
+I45 -> w -> I41
+I45 -> S -> I46
+I45 -> A -> I47
+I45 -> C -> I48
+I45 -> D -> I49
+I45 -> I -> I50
+I45 -> L -> I51
+I45 -> c -> I52
+I47 -> v -> I23
+I47 -> i -> I17
+I47 -> d -> I28
+I47 -> p -> I35
+I47 -> s -> I38
+I47 -> w -> I41
+I47 -> A -> I47
+I47 -> C -> I48
+I47 -> D -> I49
+I47 -> I -> I50
+I47 -> L -> I51
+I47 -> c -> I52
+I47 -> S -> I57
+I48 -> v -> I23
+I48 -> i -> I17
+I48 -> d -> I28
+I48 -> p -> I35
+I48 -> s -> I38
+I48 -> w -> I41
+I48 -> A -> I47
+I48 -> C -> I48
+I48 -> D -> I49
+I48 -> I -> I50
+I48 -> L -> I51
+I48 -> c -> I52
+I48 -> S -> I56
+I49 -> v -> I23
+I49 -> i -> I17
+I49 -> d -> I28
+I49 -> p -> I35
+I49 -> s -> I38
+I49 -> w -> I41
+I49 -> A -> I47
+I49 -> C -> I48
+I49 -> D -> I49
+I49 -> I -> I50
+I49 -> L -> I51
+I49 -> c -> I52
+I49 -> S -> I55
+I50 -> v -> I23
+I50 -> i -> I17
+I50 -> d -> I28
+I50 -> p -> I35
+I50 -> s -> I38
+I50 -> w -> I41
+I50 -> A -> I47
+I50 -> C -> I48
+I50 -> D -> I49
+I50 -> I -> I50
+I50 -> L -> I51
+I50 -> c -> I52
+I50 -> S -> I54
+I51 -> v -> I23
+I51 -> i -> I17
+I51 -> d -> I28
+I51 -> p -> I35
+I51 -> s -> I38
+I51 -> w -> I41
+I51 -> A -> I47
+I51 -> C -> I48
+I51 -> D -> I49
+I51 -> I -> I50
+I51 -> L -> I51
+I51 -> c -> I52
+I51 -> S -> I53
+I58 -> r -> I59
+I59 -> T -> I60
+I59 -> n -> I9
+I59 -> v -> I14
