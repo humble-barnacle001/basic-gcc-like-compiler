@@ -7,6 +7,9 @@ then
     exit
 fi
 
+chmod +x cmd/*.sh
+chmod +x visualizer/transition.py
+
 
 ./cmd/lex.sh $1 ${1%.*}.tkl
 ./cmd/symboltable.sh $1 ${1%.*}.csv
