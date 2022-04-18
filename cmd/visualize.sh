@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if ! command -v lex &> /dev/null
+if ! command -v dot &> /dev/null
 then
     sudo apt install graphviz -y
 fi
