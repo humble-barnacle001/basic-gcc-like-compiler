@@ -471,7 +471,7 @@ int main(int argc, char *argv[])
                 // if the action is shift
                 string rem = action.substr(1);
                 int state = stoi(rem);
-                cout << "Shift and move to :" << state << "\n";
+                cout << "Shift "<<input[currentInputIndex]<<" and move to :" << state << "\n";
                 // increase the current input index only in shift operation
                 stack.push(input[currentInputIndex++] + "");
                 stack.push(rem);

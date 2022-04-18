@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if ! command -v lex &> /dev/null
+then
+    sudo apt install graphviz -y
+fi
 
 echo "Generating plots..."
 g++ ./visualizer/visualize.cpp ./util/filereadwrite.cpp -o ./bin/visualize.bin
