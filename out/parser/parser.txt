@@ -1,0 +1,1637 @@
+r0:A->v=X
+r1:C->ifRgtbSebS
+r2:D->dV
+r3:G->P
+r4:I->pT;
+r5:I->sT;
+r6:L->wfRgbS
+r7:P->mfgbS
+r8:R->TrT
+r10:S->AS
+r12:S->CS
+r11:S->DS
+r14:S->IS
+r13:S->LS
+r9:S->c
+r16:T->n
+r15:T->v
+r18:V->v;
+r17:V->vzV
+r21:X->A
+r20:X->T;
+r19:X->TaT;
+Rule:A->v=XNumber:0
+Rule:C->ifRgtbSebSNumber:1
+Rule:D->dVNumber:2
+Rule:G->PNumber:3
+Rule:I->pT;Number:4
+Rule:I->sT;Number:5
+Rule:L->wfRgbSNumber:6
+Rule:P->mfgbSNumber:7
+Rule:R->TrTNumber:8
+Rule:S->cNumber:9
+Rule:S->ASNumber:10
+Rule:S->DSNumber:11
+Rule:S->CSNumber:12
+Rule:S->LSNumber:13
+Rule:S->ISNumber:14
+Rule:T->vNumber:15
+Rule:T->nNumber:16
+Rule:V->vzVNumber:17
+Rule:V->v;Number:18
+Rule:X->TaT;Number:19
+Rule:X->T;Number:20
+Rule:X->ANumber:21
+Current closure Item set:
+G->.P
+P->.mfgbS
+
+Pushed character:P
+Pushed character:m
+Current closure Item set:
+G->P.
+
+Called for rule :G->P.
+Called insertIntoReduceRule for:G->P. Production rule number for the rule :G->Pis :3
+Start Symbol of the Grammar :G
+Follow set map for the character:Gis:
+$ 
+Character c :$ Character start:G
+Inserted into accept state 
+Current closure Item set:
+P->m.fgbS
+
+Pushed character:f
+Current closure Item set:
+P->mf.gbS
+
+Pushed character:g
+Current closure Item set:
+P->mfg.bS
+
+Pushed character:b
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+P->mfgb.S
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->A.S
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->C.S
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->D.S
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->I.S
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->L.S
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+P->mfgbS.
+
+Called for rule :P->mfgbS.
+Called insertIntoReduceRule for:P->mfgbS. Production rule number for the rule :P->mfgbSis :7
+Start Symbol of the Grammar :G
+Follow set map for the character:Pis:
+$ 
+Character c :$ Character start:G
+Current closure Item set:
+S->c.
+
+Called for rule :S->c.
+Called insertIntoReduceRule for:S->c. Production rule number for the rule :S->cis :9
+Start Symbol of the Grammar :G
+Follow set map for the character:Sis:
+$ c d e i p s v w 
+Character c :$ Character start:G
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :e Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+D->d.V
+V->.v;
+V->.vzV
+
+Pushed character:V
+Pushed character:v
+Current closure Item set:
+C->i.fRgtbSebS
+
+Pushed character:f
+Current closure Item set:
+I->p.T;
+T->.n
+T->.v
+
+Pushed character:T
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+I->s.T;
+T->.n
+T->.v
+
+Pushed character:T
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+A->v.=X
+
+Pushed character:=
+Current closure Item set:
+L->w.fRgbS
+
+Pushed character:f
+Current closure Item set:
+S->AS.
+
+Called for rule :S->AS.
+Called insertIntoReduceRule for:S->AS. Production rule number for the rule :S->ASis :10
+Start Symbol of the Grammar :G
+Follow set map for the character:Sis:
+$ c d e i p s v w 
+Character c :$ Character start:G
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :e Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+S->CS.
+
+Called for rule :S->CS.
+Called insertIntoReduceRule for:S->CS. Production rule number for the rule :S->CSis :12
+Start Symbol of the Grammar :G
+Follow set map for the character:Sis:
+$ c d e i p s v w 
+Character c :$ Character start:G
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :e Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+S->DS.
+
+Called for rule :S->DS.
+Called insertIntoReduceRule for:S->DS. Production rule number for the rule :S->DSis :11
+Start Symbol of the Grammar :G
+Follow set map for the character:Sis:
+$ c d e i p s v w 
+Character c :$ Character start:G
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :e Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+S->IS.
+
+Called for rule :S->IS.
+Called insertIntoReduceRule for:S->IS. Production rule number for the rule :S->ISis :14
+Start Symbol of the Grammar :G
+Follow set map for the character:Sis:
+$ c d e i p s v w 
+Character c :$ Character start:G
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :e Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+S->LS.
+
+Called for rule :S->LS.
+Called insertIntoReduceRule for:S->LS. Production rule number for the rule :S->LSis :13
+Start Symbol of the Grammar :G
+Follow set map for the character:Sis:
+$ c d e i p s v w 
+Character c :$ Character start:G
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :e Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+D->dV.
+
+Called for rule :D->dV.
+Called insertIntoReduceRule for:D->dV. Production rule number for the rule :D->dVis :2
+Start Symbol of the Grammar :G
+Follow set map for the character:Dis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+V->v.;
+V->v.zV
+
+Pushed character:;
+Pushed character:z
+Current closure Item set:
+C->if.RgtbSebS
+R->.TrT
+T->.n
+T->.v
+
+Pushed character:R
+Pushed character:T
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+I->pT.;
+
+Pushed character:;
+Current closure Item set:
+T->n.
+
+Called for rule :T->n.
+Called insertIntoReduceRule for:T->n. Production rule number for the rule :T->nis :16
+Start Symbol of the Grammar :G
+Follow set map for the character:Tis:
+; a g r 
+Character c :; Character start:G
+Character c :a Character start:G
+Character c :g Character start:G
+Character c :r Character start:G
+Current closure Item set:
+T->v.
+
+Called for rule :T->v.
+Called insertIntoReduceRule for:T->v. Production rule number for the rule :T->vis :15
+Start Symbol of the Grammar :G
+Follow set map for the character:Tis:
+; a g r 
+Character c :; Character start:G
+Character c :a Character start:G
+Character c :g Character start:G
+Character c :r Character start:G
+Current closure Item set:
+I->sT.;
+
+Pushed character:;
+Current closure Item set:
+A->.v=X
+A->v=.X
+T->.n
+T->.v
+X->.A
+X->.T;
+X->.TaT;
+
+Pushed character:A
+Pushed character:T
+Pushed character:X
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+L->wf.RgbS
+R->.TrT
+T->.n
+T->.v
+
+Pushed character:R
+Pushed character:T
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+V->v;.
+
+Called for rule :V->v;.
+Called insertIntoReduceRule for:V->v;. Production rule number for the rule :V->v;is :18
+Start Symbol of the Grammar :G
+Follow set map for the character:Vis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+V->.v;
+V->.vzV
+V->vz.V
+
+Pushed character:V
+Pushed character:v
+Current closure Item set:
+C->ifR.gtbSebS
+
+Pushed character:g
+Current closure Item set:
+R->T.rT
+
+Pushed character:r
+Current closure Item set:
+I->pT;.
+
+Called for rule :I->pT;.
+Called insertIntoReduceRule for:I->pT;. Production rule number for the rule :I->pT;is :4
+Start Symbol of the Grammar :G
+Follow set map for the character:Iis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+I->sT;.
+
+Called for rule :I->sT;.
+Called insertIntoReduceRule for:I->sT;. Production rule number for the rule :I->sT;is :5
+Start Symbol of the Grammar :G
+Follow set map for the character:Iis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+X->A.
+
+Called for rule :X->A.
+Called insertIntoReduceRule for:X->A. Production rule number for the rule :X->Ais :21
+Start Symbol of the Grammar :G
+Follow set map for the character:Xis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+X->T.;
+X->T.aT;
+
+Pushed character:;
+Pushed character:a
+Current closure Item set:
+A->v=X.
+
+Called for rule :A->v=X.
+Called insertIntoReduceRule for:A->v=X. Production rule number for the rule :A->v=Xis :0
+Start Symbol of the Grammar :G
+Follow set map for the character:Ais:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+A->v.=X
+T->v.
+
+Called for rule :T->v.
+Called insertIntoReduceRule for:T->v. Production rule number for the rule :T->vis :15
+Start Symbol of the Grammar :G
+Follow set map for the character:Tis:
+; a g r 
+Character c :; Character start:G
+Character c :a Character start:G
+Character c :g Character start:G
+Character c :r Character start:G
+Pushed character:=
+Current closure Item set:
+L->wfR.gbS
+
+Pushed character:g
+Current closure Item set:
+V->vzV.
+
+Called for rule :V->vzV.
+Called insertIntoReduceRule for:V->vzV. Production rule number for the rule :V->vzVis :17
+Start Symbol of the Grammar :G
+Follow set map for the character:Vis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+C->ifRg.tbSebS
+
+Pushed character:t
+Current closure Item set:
+R->Tr.T
+T->.n
+T->.v
+
+Pushed character:T
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+X->T;.
+
+Called for rule :X->T;.
+Called insertIntoReduceRule for:X->T;. Production rule number for the rule :X->T;is :20
+Start Symbol of the Grammar :G
+Follow set map for the character:Xis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+T->.n
+T->.v
+X->Ta.T;
+
+Pushed character:T
+Pushed character:n
+Pushed character:v
+Current closure Item set:
+L->wfRg.bS
+
+Pushed character:b
+Current closure Item set:
+C->ifRgt.bSebS
+
+Pushed character:b
+Current closure Item set:
+R->TrT.
+
+Called for rule :R->TrT.
+Called insertIntoReduceRule for:R->TrT. Production rule number for the rule :R->TrTis :8
+Start Symbol of the Grammar :G
+Follow set map for the character:Ris:
+g 
+Character c :g Character start:G
+Current closure Item set:
+X->TaT.;
+
+Pushed character:;
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+L->wfRgb.S
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+C->ifRgtb.SebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+X->TaT;.
+
+Called for rule :X->TaT;.
+Called insertIntoReduceRule for:X->TaT;. Production rule number for the rule :X->TaT;is :19
+Start Symbol of the Grammar :G
+Follow set map for the character:Xis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+L->wfRgbS.
+
+Called for rule :L->wfRgbS.
+Called insertIntoReduceRule for:L->wfRgbS. Production rule number for the rule :L->wfRgbSis :6
+Start Symbol of the Grammar :G
+Follow set map for the character:Lis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+Current closure Item set:
+C->ifRgtbS.ebS
+
+Pushed character:e
+Current closure Item set:
+C->ifRgtbSe.bS
+
+Pushed character:b
+Current closure Item set:
+A->.v=X
+C->.ifRgtbSebS
+C->ifRgtbSeb.S
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+Pushed character:A
+Pushed character:C
+Pushed character:D
+Pushed character:I
+Pushed character:L
+Pushed character:S
+Pushed character:c
+Pushed character:d
+Pushed character:i
+Pushed character:p
+Pushed character:s
+Pushed character:v
+Pushed character:w
+Current closure Item set:
+C->ifRgtbSebS.
+
+Called for rule :C->ifRgtbSebS.
+Called insertIntoReduceRule for:C->ifRgtbSebS. Production rule number for the rule :C->ifRgtbSebSis :1
+Start Symbol of the Grammar :G
+Follow set map for the character:Cis:
+c d i p s v w 
+Character c :c Character start:G
+Character c :d Character start:G
+Character c :i Character start:G
+Character c :p Character start:G
+Character c :s Character start:G
+Character c :v Character start:G
+Character c :w Character start:G
+
+--------The Item Sets generated in the grammar are :-----------
+I0:
+G->.P
+P->.mfgbS
+
+I1:
+G->P.
+
+I2:
+P->m.fgbS
+
+I3:
+P->mf.gbS
+
+I4:
+P->mfg.bS
+
+I5:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+P->mfgb.S
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+I6:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->A.S
+
+I7:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->C.S
+
+I8:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->D.S
+
+I9:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->I.S
+
+I10:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+S->L.S
+
+I11:
+P->mfgbS.
+
+I12:
+S->c.
+
+I13:
+D->d.V
+V->.v;
+V->.vzV
+
+I14:
+C->i.fRgtbSebS
+
+I15:
+I->p.T;
+T->.n
+T->.v
+
+I16:
+I->s.T;
+T->.n
+T->.v
+
+I17:
+A->v.=X
+
+I18:
+L->w.fRgbS
+
+I19:
+S->AS.
+
+I20:
+S->CS.
+
+I21:
+S->DS.
+
+I22:
+S->IS.
+
+I23:
+S->LS.
+
+I24:
+D->dV.
+
+I25:
+V->v.;
+V->v.zV
+
+I26:
+C->if.RgtbSebS
+R->.TrT
+T->.n
+T->.v
+
+I27:
+I->pT.;
+
+I28:
+T->n.
+
+I29:
+T->v.
+
+I30:
+I->sT.;
+
+I31:
+A->.v=X
+A->v=.X
+T->.n
+T->.v
+X->.A
+X->.T;
+X->.TaT;
+
+I32:
+L->wf.RgbS
+R->.TrT
+T->.n
+T->.v
+
+I33:
+V->v;.
+
+I34:
+V->.v;
+V->.vzV
+V->vz.V
+
+I35:
+C->ifR.gtbSebS
+
+I36:
+R->T.rT
+
+I37:
+I->pT;.
+
+I38:
+I->sT;.
+
+I39:
+X->A.
+
+I40:
+X->T.;
+X->T.aT;
+
+I41:
+A->v=X.
+
+I42:
+A->v.=X
+T->v.
+
+I43:
+L->wfR.gbS
+
+I44:
+V->vzV.
+
+I45:
+C->ifRg.tbSebS
+
+I46:
+R->Tr.T
+T->.n
+T->.v
+
+I47:
+X->T;.
+
+I48:
+T->.n
+T->.v
+X->Ta.T;
+
+I49:
+L->wfRg.bS
+
+I50:
+C->ifRgt.bSebS
+
+I51:
+R->TrT.
+
+I52:
+X->TaT.;
+
+I53:
+A->.v=X
+C->.ifRgtbSebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+L->wfRgb.S
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+I54:
+A->.v=X
+C->.ifRgtbSebS
+C->ifRgtb.SebS
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+I55:
+X->TaT;.
+
+I56:
+L->wfRgbS.
+
+I57:
+C->ifRgtbS.ebS
+
+I58:
+C->ifRgtbSe.bS
+
+I59:
+A->.v=X
+C->.ifRgtbSebS
+C->ifRgtbSeb.S
+D->.dV
+I->.pT;
+I->.sT;
+L->.wfRgbS
+S->.AS
+S->.CS
+S->.DS
+S->.IS
+S->.LS
+S->.c
+
+I60:
+C->ifRgtbSebS.
+
+Action:I0->m->S2
+Action:I1->$->AC
+Action:I2->f->S3
+Action:I3->g->S4
+Action:I4->b->S5
+Action:I5->c->S12
+Action:I5->d->S13
+Action:I5->i->S14
+Action:I5->p->S15
+Action:I5->s->S16
+Action:I5->v->S17
+Action:I5->w->S18
+Action:I6->c->S12
+Action:I6->d->S13
+Action:I6->i->S14
+Action:I6->p->S15
+Action:I6->s->S16
+Action:I6->v->S17
+Action:I6->w->S18
+Action:I7->c->S12
+Action:I7->d->S13
+Action:I7->i->S14
+Action:I7->p->S15
+Action:I7->s->S16
+Action:I7->v->S17
+Action:I7->w->S18
+Action:I8->c->S12
+Action:I8->d->S13
+Action:I8->i->S14
+Action:I8->p->S15
+Action:I8->s->S16
+Action:I8->v->S17
+Action:I8->w->S18
+Action:I9->c->S12
+Action:I9->d->S13
+Action:I9->i->S14
+Action:I9->p->S15
+Action:I9->s->S16
+Action:I9->v->S17
+Action:I9->w->S18
+Action:I10->c->S12
+Action:I10->d->S13
+Action:I10->i->S14
+Action:I10->p->S15
+Action:I10->s->S16
+Action:I10->v->S17
+Action:I10->w->S18
+Action:I11->$->R7
+Action:I12->$->R9
+Action:I12->c->R9
+Action:I12->d->R9
+Action:I12->e->R9
+Action:I12->i->R9
+Action:I12->p->R9
+Action:I12->s->R9
+Action:I12->v->R9
+Action:I12->w->R9
+Action:I13->v->S25
+Action:I14->f->S26
+Action:I15->n->S28
+Action:I15->v->S29
+Action:I16->n->S28
+Action:I16->v->S29
+Action:I17->=->S31
+Action:I18->f->S32
+Action:I19->$->R10
+Action:I19->c->R10
+Action:I19->d->R10
+Action:I19->e->R10
+Action:I19->i->R10
+Action:I19->p->R10
+Action:I19->s->R10
+Action:I19->v->R10
+Action:I19->w->R10
+Action:I20->$->R12
+Action:I20->c->R12
+Action:I20->d->R12
+Action:I20->e->R12
+Action:I20->i->R12
+Action:I20->p->R12
+Action:I20->s->R12
+Action:I20->v->R12
+Action:I20->w->R12
+Action:I21->$->R11
+Action:I21->c->R11
+Action:I21->d->R11
+Action:I21->e->R11
+Action:I21->i->R11
+Action:I21->p->R11
+Action:I21->s->R11
+Action:I21->v->R11
+Action:I21->w->R11
+Action:I22->$->R14
+Action:I22->c->R14
+Action:I22->d->R14
+Action:I22->e->R14
+Action:I22->i->R14
+Action:I22->p->R14
+Action:I22->s->R14
+Action:I22->v->R14
+Action:I22->w->R14
+Action:I23->$->R13
+Action:I23->c->R13
+Action:I23->d->R13
+Action:I23->e->R13
+Action:I23->i->R13
+Action:I23->p->R13
+Action:I23->s->R13
+Action:I23->v->R13
+Action:I23->w->R13
+Action:I24->c->R2
+Action:I24->d->R2
+Action:I24->i->R2
+Action:I24->p->R2
+Action:I24->s->R2
+Action:I24->v->R2
+Action:I24->w->R2
+Action:I25->;->S33
+Action:I25->z->S34
+Action:I26->n->S28
+Action:I26->v->S29
+Action:I27->;->S37
+Action:I28->;->R16
+Action:I28->a->R16
+Action:I28->g->R16
+Action:I28->r->R16
+Action:I29->;->R15
+Action:I29->a->R15
+Action:I29->g->R15
+Action:I29->r->R15
+Action:I30->;->S38
+Action:I31->n->S28
+Action:I31->v->S42
+Action:I32->n->S28
+Action:I32->v->S29
+Action:I33->c->R18
+Action:I33->d->R18
+Action:I33->i->R18
+Action:I33->p->R18
+Action:I33->s->R18
+Action:I33->v->R18
+Action:I33->w->R18
+Action:I34->v->S25
+Action:I35->g->S45
+Action:I36->r->S46
+Action:I37->c->R4
+Action:I37->d->R4
+Action:I37->i->R4
+Action:I37->p->R4
+Action:I37->s->R4
+Action:I37->v->R4
+Action:I37->w->R4
+Action:I38->c->R5
+Action:I38->d->R5
+Action:I38->i->R5
+Action:I38->p->R5
+Action:I38->s->R5
+Action:I38->v->R5
+Action:I38->w->R5
+Action:I39->c->R21
+Action:I39->d->R21
+Action:I39->i->R21
+Action:I39->p->R21
+Action:I39->s->R21
+Action:I39->v->R21
+Action:I39->w->R21
+Action:I40->;->S47
+Action:I40->a->S48
+Action:I41->c->R0
+Action:I41->d->R0
+Action:I41->i->R0
+Action:I41->p->R0
+Action:I41->s->R0
+Action:I41->v->R0
+Action:I41->w->R0
+Action:I42->;->R15
+Action:I42->=->S31
+Action:I42->a->R15
+Action:I42->g->R15
+Action:I42->r->R15
+Action:I43->g->S49
+Action:I44->c->R17
+Action:I44->d->R17
+Action:I44->i->R17
+Action:I44->p->R17
+Action:I44->s->R17
+Action:I44->v->R17
+Action:I44->w->R17
+Action:I45->t->S50
+Action:I46->n->S28
+Action:I46->v->S29
+Action:I47->c->R20
+Action:I47->d->R20
+Action:I47->i->R20
+Action:I47->p->R20
+Action:I47->s->R20
+Action:I47->v->R20
+Action:I47->w->R20
+Action:I48->n->S28
+Action:I48->v->S29
+Action:I49->b->S53
+Action:I50->b->S54
+Action:I51->g->R8
+Action:I52->;->S55
+Action:I53->c->S12
+Action:I53->d->S13
+Action:I53->i->S14
+Action:I53->p->S15
+Action:I53->s->S16
+Action:I53->v->S17
+Action:I53->w->S18
+Action:I54->c->S12
+Action:I54->d->S13
+Action:I54->i->S14
+Action:I54->p->S15
+Action:I54->s->S16
+Action:I54->v->S17
+Action:I54->w->S18
+Action:I55->c->R19
+Action:I55->d->R19
+Action:I55->i->R19
+Action:I55->p->R19
+Action:I55->s->R19
+Action:I55->v->R19
+Action:I55->w->R19
+Action:I56->c->R6
+Action:I56->d->R6
+Action:I56->i->R6
+Action:I56->p->R6
+Action:I56->s->R6
+Action:I56->v->R6
+Action:I56->w->R6
+Action:I57->e->S58
+Action:I58->b->S59
+Action:I59->c->S12
+Action:I59->d->S13
+Action:I59->i->S14
+Action:I59->p->S15
+Action:I59->s->S16
+Action:I59->v->S17
+Action:I59->w->S18
+Action:I60->c->R1
+Action:I60->d->R1
+Action:I60->i->R1
+Action:I60->p->R1
+Action:I60->s->R1
+Action:I60->v->R1
+Action:I60->w->R1
+
+Goto:I0->P->1
+Goto:I5->A->6
+Goto:I5->C->7
+Goto:I5->D->8
+Goto:I5->I->9
+Goto:I5->L->10
+Goto:I5->S->11
+Goto:I6->A->6
+Goto:I6->C->7
+Goto:I6->D->8
+Goto:I6->I->9
+Goto:I6->L->10
+Goto:I6->S->19
+Goto:I7->A->6
+Goto:I7->C->7
+Goto:I7->D->8
+Goto:I7->I->9
+Goto:I7->L->10
+Goto:I7->S->20
+Goto:I8->A->6
+Goto:I8->C->7
+Goto:I8->D->8
+Goto:I8->I->9
+Goto:I8->L->10
+Goto:I8->S->21
+Goto:I9->A->6
+Goto:I9->C->7
+Goto:I9->D->8
+Goto:I9->I->9
+Goto:I9->L->10
+Goto:I9->S->22
+Goto:I10->A->6
+Goto:I10->C->7
+Goto:I10->D->8
+Goto:I10->I->9
+Goto:I10->L->10
+Goto:I10->S->23
+Goto:I13->V->24
+Goto:I15->T->27
+Goto:I16->T->30
+Goto:I26->R->35
+Goto:I26->T->36
+Goto:I31->A->39
+Goto:I31->T->40
+Goto:I31->X->41
+Goto:I32->R->43
+Goto:I32->T->36
+Goto:I34->V->44
+Goto:I46->T->51
+Goto:I48->T->52
+Goto:I53->A->6
+Goto:I53->C->7
+Goto:I53->D->8
+Goto:I53->I->9
+Goto:I53->L->10
+Goto:I53->S->56
+Goto:I54->A->6
+Goto:I54->C->7
+Goto:I54->D->8
+Goto:I54->I->9
+Goto:I54->L->10
+Goto:I54->S->57
+Goto:I59->A->6
+Goto:I59->C->7
+Goto:I59->D->8
+Goto:I59->I->9
+Goto:I59->L->10
+Goto:I59->S->60
+Shift m and move to :2
+Shift f and move to :3
+Shift g and move to :4
+Shift b and move to :5
+Shift d and move to :13
+Shift v and move to :25
+Shift z and move to :34
+Shift v and move to :25
+Shift z and move to :34
+Shift v and move to :25
+Shift ; and move to :33
+Reduce: V->v;
+Reduce: V->vzV
+Reduce: V->vzV
+Reduce: D->dV
+Shift s and move to :16
+Shift v and move to :29
+Reduce: T->v
+Shift ; and move to :38
+Reduce: I->sT;
+Shift v and move to :17
+Shift = and move to :31
+Shift v and move to :42
+Reduce: T->v
+Shift a and move to :48
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :55
+Reduce: X->TaT;
+Reduce: A->v=X
+Shift p and move to :15
+Shift v and move to :29
+Reduce: T->v
+Shift ; and move to :37
+Reduce: I->pT;
+Shift i and move to :14
+Shift f and move to :26
+Shift v and move to :29
+Reduce: T->v
+Shift r and move to :46
+Shift v and move to :29
+Reduce: T->v
+Reduce: R->TrT
+Shift g and move to :45
+Shift t and move to :50
+Shift b and move to :54
+Shift d and move to :13
+Shift v and move to :25
+Shift ; and move to :33
+Reduce: V->v;
+Reduce: D->dV
+Shift p and move to :15
+Shift v and move to :29
+Reduce: T->v
+Shift ; and move to :37
+Reduce: I->pT;
+Shift v and move to :17
+Shift = and move to :31
+Shift n and move to :28
+Reduce: T->n
+Shift a and move to :48
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :55
+Reduce: X->TaT;
+Reduce: A->v=X
+Shift i and move to :14
+Shift f and move to :26
+Shift v and move to :29
+Reduce: T->v
+Shift r and move to :46
+Shift v and move to :29
+Reduce: T->v
+Reduce: R->TrT
+Shift g and move to :45
+Shift t and move to :50
+Shift b and move to :54
+Shift d and move to :13
+Shift v and move to :25
+Shift z and move to :34
+Shift v and move to :25
+Shift ; and move to :33
+Reduce: V->v;
+Reduce: V->vzV
+Reduce: D->dV
+Shift v and move to :17
+Shift = and move to :31
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :47
+Reduce: X->T;
+Reduce: A->v=X
+Shift v and move to :17
+Shift = and move to :31
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :47
+Reduce: X->T;
+Reduce: A->v=X
+Shift p and move to :15
+Shift v and move to :29
+Reduce: T->v
+Shift ; and move to :37
+Reduce: I->pT;
+Shift v and move to :17
+Shift = and move to :31
+Shift v and move to :42
+Reduce: T->v
+Shift a and move to :48
+Shift v and move to :29
+Reduce: T->v
+Shift ; and move to :55
+Reduce: X->TaT;
+Reduce: A->v=X
+Shift v and move to :17
+Shift = and move to :31
+Shift n and move to :28
+Reduce: T->n
+Shift a and move to :48
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :55
+Reduce: X->TaT;
+Reduce: A->v=X
+Shift c and move to :12
+Reduce: S->c
+Reduce: S->AS
+Reduce: S->AS
+Reduce: S->IS
+Reduce: S->AS
+Reduce: S->AS
+Reduce: S->DS
+Shift e and move to :58
+Shift b and move to :59
+Shift c and move to :12
+Reduce: S->c
+Reduce: C->ifRgtbSebS
+Shift v and move to :17
+Shift = and move to :31
+Shift v and move to :42
+Shift = and move to :31
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :47
+Reduce: X->T;
+Reduce: A->v=X
+Reduce: X->A
+Reduce: A->v=X
+Shift c and move to :12
+Reduce: S->c
+Reduce: S->AS
+Reduce: S->CS
+Reduce: S->AS
+Reduce: S->IS
+Reduce: S->DS
+Shift e and move to :58
+Shift b and move to :59
+Shift w and move to :18
+Shift f and move to :32
+Shift v and move to :29
+Reduce: T->v
+Shift r and move to :46
+Shift v and move to :29
+Reduce: T->v
+Reduce: R->TrT
+Shift g and move to :49
+Shift b and move to :53
+Shift d and move to :13
+Shift v and move to :25
+Shift z and move to :34
+Shift v and move to :25
+Shift ; and move to :33
+Reduce: V->v;
+Reduce: V->vzV
+Reduce: D->dV
+Shift v and move to :17
+Shift = and move to :31
+Shift v and move to :42
+Reduce: T->v
+Shift a and move to :48
+Shift n and move to :28
+Reduce: T->n
+Shift ; and move to :55
+Reduce: X->TaT;
+Reduce: A->v=X
+Shift c and move to :12
+Reduce: S->c
+Reduce: S->AS
+Reduce: S->DS
+Reduce: L->wfRgbS
+Shift c and move to :12
+Reduce: S->c
+Reduce: S->LS
+Reduce: C->ifRgtbSebS
+Shift c and move to :12
+Reduce: S->c
+Reduce: S->CS
+Reduce: S->IS
+Reduce: S->AS
+Reduce: S->IS
+Reduce: S->DS
+Reduce: P->mfgbS
+
+---ACCEPTED----
