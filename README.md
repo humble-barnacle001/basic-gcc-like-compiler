@@ -28,5 +28,5 @@ Designing a C like compiler
 
 ## Transitions
 
-![](results/graph.svg)
+The Transition diagram can be found [here](./results/graph.svg)
 
